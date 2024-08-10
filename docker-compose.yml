@@ -1,0 +1,7 @@
+version: "3"
+services:
+  video_processor:
+    build: .
+    volumes:
+      - ./:/app
+    command: python main.py
