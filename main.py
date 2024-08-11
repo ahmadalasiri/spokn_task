@@ -1,8 +1,3 @@
-### Requirmenets:
-# 1- regenerate the video using ffmpeg again with a corner radius 4px.
-# 2- remove the sound of the first 3 seconds.
-# 3- merge the video again to the same video but with fading out the last 3 seconds of the first video, and fade in the first 3 seconds of the second video.
-
 import subprocess
 
 def add_corner_radius(input_file, output_file, radius=40):
